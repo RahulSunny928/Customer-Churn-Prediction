@@ -42,35 +42,27 @@ Final model achieves approximately **0.85 AUC score** on the test set.
 
 ## 📂 Project Structure
 
-
-
+```bash
 Customer-Churn-Prediction/
-│── Telco-Customer-Churn-dataset-cleaned.csv # Cleaned dataset
-│── Telco-Customer-Churn-Prediction.ipynb # Main Jupyter Notebook
-│── Telco-Customer-Churn-Prediction.html # Notebook HTML export
-│── XGB_Hyperparameter.pickle # Saved XGBoost best params
-│── LGBM_Hyperparameter.pickle # Saved LightGBM best params
-│── CatBoost_Hyperparameter.pickle # Saved CatBoost best params
-│── model_catboost/ # Trained CatBoost model files
-│── catboost_info/ # CatBoost logs/info
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
-
-
----
-
-## ⚙️ Requirements
-
-Make sure you have **Python 3.x** installed.  
+├── Telco-Customer-Churn-dataset-cleaned.csv    # Cleaned dataset
+├── Telco-Customer-Churn-Prediction.ipynb       # Main Jupyter Notebook
+├── Telco-Customer-Churn-Prediction.html        # Notebook HTML export
+├── XGB_Hyperparameter.pickle                   # Saved XGBoost best params
+├── LGBM_Hyperparameter.pickle                  # Saved LightGBM best params
+├── CatBoost_Hyperparameter.pickle              # Saved CatBoost best params
+├── model_catboost/                             # Trained CatBoost model files
+├── catboost_info/                              # CatBoost logs/info
+├── requirements.txt                            # Dependencies
+└── README.md                                   # Project documentation
+⚙️ Requirements
+Make sure you have Python 3.x installed.
 Then, install the required libraries:
 
-```bash
+bash
+Copy code
 pip install -r requirements.txt
-
 🗄️ Database / Data Setup
-
 No external database required.
-
 Data is already provided in CSV format:
 Telco-Customer-Churn-dataset-cleaned.csv
 
@@ -78,47 +70,47 @@ Telco-Customer-Churn-dataset-cleaned.csv
 
 ▶️ How to Run Locally
 1️⃣ Clone the Repository
+bash
+Copy code
 git clone https://github.com/vishred06-cmd/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
-
 2️⃣ Create a Virtual Environment (recommended)
+bash
+Copy code
 python -m venv venv
-
-
 Activate it:
 
 Windows:
 
+bash
+Copy code
 venv\Scripts\activate
-
-
 Mac/Linux:
 
+bash
+Copy code
 source venv/bin/activate
-
 3️⃣ Install Dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
 4️⃣ Run the Jupyter Notebook
+bash
+Copy code
 jupyter notebook Telco-Customer-Churn-Prediction.ipynb
-
-
 👉 Alternatively, open the pre-rendered HTML report:
 Telco-Customer-Churn-Prediction.html in your browser to view results directly.
 
 5️⃣ Using Saved Models / Hyperparameters
-
 Pre-tuned hyperparameters (.pickle files) are available for direct use.
 
 The CatBoost model inside model_catboost/ can be loaded for predictions.
 
 📜 License
-
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with attribution.
 
 🙌 Acknowledgements
-
 Dataset: IBM Telco Customer Churn Dataset (available on Kaggle)
 
 Thanks to the open-source contributors of:
