@@ -63,6 +63,7 @@ Copy code
 ## ⚙️ Requirements
 
 Make sure you have **Python 3.x** installed.  
+
 Then install the required libraries:
 
 pip install -r requirements.txt
@@ -75,6 +76,7 @@ Copy code
 ## 🗄️ Database / Data Setup
 
 No external database required.  
+
 Data is already provided in CSV format:  
 `Telco-Customer-Churn-dataset-cleaned.csv`
 
@@ -85,6 +87,7 @@ Data is already provided in CSV format:
 ## ▶️ How to Run Locally
 
 **Step 1 — Clone the Repository**
+
 git clone https://github.com/vishred06-cmd/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
 
@@ -92,6 +95,7 @@ css
 Copy code
 
 **Step 2 — Create a Virtual Environment (recommended)**
+
 python -m venv venv
 
 mathematica
@@ -100,24 +104,28 @@ Copy code
 Activate the environment:
 
 **For Windows:**
+
 venv\Scripts\activate
 
 markdown
 Copy code
 
 **For Mac/Linux:**
+
 source venv/bin/activate
 
 markdown
 Copy code
 
 **Step 3 — Install Dependencies**
+
 pip install -r requirements.txt
 
 mathematica
 Copy code
 
 **Step 4 — Run the Jupyter Notebook**
+
 jupyter notebook Telco-Customer-Churn-Prediction.ipynb
 
 yaml
@@ -127,6 +135,7 @@ Copy code
 `Telco-Customer-Churn-Prediction.html` in your browser to view results directly.
 
 **Step 5 — Using Saved Models / Hyperparameters**
+
 - Pre-tuned hyperparameters (`.pickle` files) are available for direct use.  
 - The CatBoost model inside `model_catboost/` can be loaded for predictions.
 
