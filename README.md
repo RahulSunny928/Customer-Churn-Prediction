@@ -42,22 +42,21 @@ Final model achieves approximately **0.85 AUC score** on the test set.
 
 ## 📂 Project Structure
 
+```
 Customer-Churn-Prediction/
 │
-├── Telco-Customer-Churn-dataset-cleaned.csv # Cleaned dataset
-├── Telco-Customer-Churn-Prediction.ipynb # Main Jupyter Notebook
-├── Telco-Customer-Churn-Prediction.html # Notebook HTML export
-├── XGB_Hyperparameter.pickle # Saved XGBoost best params
-├── LGBM_Hyperparameter.pickle # Saved LightGBM best params
-├── CatBoost_Hyperparameter.pickle # Saved CatBoost best params
-├── model_catboost/ # Trained CatBoost model files
-├── catboost_info/ # CatBoost logs/info
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
-
-
-
----
+├── Telco-Customer-Churn-dataset-cleaned.csv     # Cleaned dataset
+├── Telco-Customer-Churn-Prediction.ipynb        # Main Jupyter Notebook
+├── Telco-Customer-Churn-Prediction.html         # Notebook HTML export
+├── XGB_Hyperparameter.pickle                    # Saved XGBoost best params
+├── LGBM_Hyperparameter.pickle                   # Saved LightGBM best params
+├── CatBoost_Hyperparameter.pickle               # Saved CatBoost best params
+├── model_catboost/                              # Trained CatBoost model files
+├── catboost_info/                               # CatBoost logs/info
+├── requirements.txt                             # Dependencies
+└── README.md                                    # Project documentation
+```
+----
 
 ## ⚙️ Requirements
 
@@ -150,4 +149,5 @@ You are free to use, modify, and distribute it with attribution.
   - Optuna  
 
 ---
+
 
