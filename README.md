@@ -55,8 +55,7 @@ Customer-Churn-Prediction/
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
 
-yaml
-Copy code
+
 
 ---
 
@@ -68,8 +67,6 @@ Then install the required libraries:
 
 pip install -r requirements.txt
 
-yaml
-Copy code
 
 ---
 
@@ -91,15 +88,13 @@ Data is already provided in CSV format:
 git clone https://github.com/vishred06-cmd/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
 
-css
-Copy code
+
 
 **Step 2 — Create a Virtual Environment (recommended)**
 
 python -m venv venv
 
-mathematica
-Copy code
+
 
 Activate the environment:
 
@@ -107,29 +102,25 @@ Activate the environment:
 
 venv\Scripts\activate
 
-markdown
-Copy code
+
 
 **For Mac/Linux:**
 
 source venv/bin/activate
 
-markdown
-Copy code
+
 
 **Step 3 — Install Dependencies**
 
 pip install -r requirements.txt
 
-mathematica
-Copy code
+
 
 **Step 4 — Run the Jupyter Notebook**
 
 jupyter notebook Telco-Customer-Churn-Prediction.ipynb
 
-yaml
-Copy code
+
 
 👉 Alternatively, open the pre-rendered HTML report:  
 `Telco-Customer-Churn-Prediction.html` in your browser to view results directly.
@@ -159,3 +150,4 @@ You are free to use, modify, and distribute it with attribution.
   - Optuna  
 
 ---
+
