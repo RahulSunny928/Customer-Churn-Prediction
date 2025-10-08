@@ -84,52 +84,46 @@ Data is already provided in CSV format:
 
 **Step 1 — Clone the Repository**
 
-git clone https://github.com/vishred06-cmd/Customer-Churn-Prediction.git
+```
+git clone https://github.com/<username>/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
-
-
+```
 
 **Step 2 — Create a Virtual Environment (recommended)**
 
+```
 python -m venv venv
-
-
+```
 
 Activate the environment:
 
 **For Windows:**
-
+```
 venv\Scripts\activate
-
-
+```
 
 **For Mac/Linux:**
-
+```
 source venv/bin/activate
-
-
+```
 
 **Step 3 — Install Dependencies**
-
+```
 pip install -r requirements.txt
-
-
+```
 
 **Step 4 — Run the Jupyter Notebook**
-
+```
 jupyter notebook Telco-Customer-Churn-Prediction.ipynb
-
-
+```
 
 👉 Alternatively, open the pre-rendered HTML report:  
 `Telco-Customer-Churn-Prediction.html` in your browser to view results directly.
 
 **Step 5 — Using Saved Models / Hyperparameters**
-
 - Pre-tuned hyperparameters (`.pickle` files) are available for direct use.  
 - The CatBoost model inside `model_catboost/` can be loaded for predictions.
-
----
+----
 
 ## 📜 License
 
@@ -149,5 +143,6 @@ You are free to use, modify, and distribute it with attribution.
   - Optuna  
 
 ---
+
 
 
