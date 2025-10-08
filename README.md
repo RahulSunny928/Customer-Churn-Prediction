@@ -43,6 +43,7 @@ Final model achieves approximately **0.85 AUC score** on the test set.
 ## 📂 Project Structure
 
 Customer-Churn-Prediction/
+│
 ├── Telco-Customer-Churn-dataset-cleaned.csv # Cleaned dataset
 ├── Telco-Customer-Churn-Prediction.ipynb # Main Jupyter Notebook
 ├── Telco-Customer-Churn-Prediction.html # Notebook HTML export
@@ -83,40 +84,40 @@ Data is already provided in CSV format:
 
 ## ▶️ How to Run Locally
 
-### 1️⃣ Clone the Repository
-git clone https://github.com/<user-name>/Customer-Churn-Prediction.git
+**Step 1 — Clone the Repository**
+git clone https://github.com/vishred06-cmd/Customer-Churn-Prediction.git
 cd Customer-Churn-Prediction
 
-shell
+css
 Copy code
 
-### 2️⃣ Create a Virtual Environment (recommended)
+**Step 2 — Create a Virtual Environment (recommended)**
 python -m venv venv
 
-makefile
+mathematica
 Copy code
 
-Activate it:
+Activate the environment:
 
-**Windows:**
+**For Windows:**
 venv\Scripts\activate
 
-makefile
+markdown
 Copy code
 
-**Mac/Linux:**
+**For Mac/Linux:**
 source venv/bin/activate
 
-shell
+markdown
 Copy code
 
-### 3️⃣ Install Dependencies
+**Step 3 — Install Dependencies**
 pip install -r requirements.txt
 
-shell
+mathematica
 Copy code
 
-### 4️⃣ Run the Jupyter Notebook
+**Step 4 — Run the Jupyter Notebook**
 jupyter notebook Telco-Customer-Churn-Prediction.ipynb
 
 yaml
@@ -125,7 +126,7 @@ Copy code
 👉 Alternatively, open the pre-rendered HTML report:  
 `Telco-Customer-Churn-Prediction.html` in your browser to view results directly.
 
-### 5️⃣ Using Saved Models / Hyperparameters
+**Step 5 — Using Saved Models / Hyperparameters**
 - Pre-tuned hyperparameters (`.pickle` files) are available for direct use.  
 - The CatBoost model inside `model_catboost/` can be loaded for predictions.
 
